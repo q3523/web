@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and ( min-width: 320px ) {
+    html {
+        font-size: calc(320 / 750 * 100px);
+    }
+}
+
+@media screen and ( min-width: 360px ) {
+    html {
+        font-size: calc(360 / 750 * 100px);
+    }
+}
+
+@media screen and ( min-width: 375px ) {
+    html {
+        font-size: calc(375 / 750 * 100px);
+    }
+}
+
+@media screen and ( min-width: 414px ) {
+    html {
+        font-size: calc(414 / 750 * 100px);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) {
+    .province {
+        border-width: 0.5px;
+    }
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 704050 */
+    src: url('//at.alicdn.com/t/font_704050_7npdqshe01v.eot');
+    src: url('//at.alicdn.com/t/font_704050_7npdqshe01v.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_704050_7npdqshe01v.woff') format('woff'),
+    url('//at.alicdn.com/t/font_704050_7npdqshe01v.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_704050_7npdqshe01v.svg#iconfont') format('svg');
+}
+ul {
+    list-style: none;
+}
+
+.title-bar {
+    background: #f7f7f7;
+    height: 0.88rem;
+    color: #000;
+    font-size: 0.33rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.88rem;
+    padding-left: 0.16rem;
+    position: relative;
+}
+
+.title-bar .back {
+    color: #007aff;
+    font-size: 0.3rem;
+    font-weight: normal;
+    padding-left: 0.50rem;
+    position: absolute;
+    line-height: 0.88rem;
+    background: #f7f7f7 url("back.png") no-repeat left center/ .3rem .3rem;
+}
+
+.search-box {
+    background: #f7f7f7;
+    height: 0.93rem;
+    padding-left: 0.32rem;
+}
+
+.search-box input {
+    background: #e4e4e6 url("search.png") no-repeat .15rem center /.3rem .3rem;
+    padding-left: .6rem;
+    width: 6.88rem;
+    height: 0.77rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+}
+
+.province {
+    background: #f4f4f4;
+    height: .77rem;
+    color: #6d6d72;
+    font-size: .27rem;
+    padding-left: .3rem;
+    line-height: .77rem;
+    border-top: #ababab 1px solid;
+    border-bottom: #ababab 1px solid;
+}
+
+.item {
+    margin: 0 auto;
+    width: 6.95rem;
+    height: 2.55rem;
+    border-bottom: #c8c7cc 1px solid;
+}
+
+.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: .48rem;
+    padding-left: 0.3rem;
+}
+
+.item .pic {
+    width: 2rem;
+    height: 1.57rem;
+    float: left;
+}
+
+.item .pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.item .info {
+    width: 3.5rem;
+    height: 1.16rem;
+    float: left;
+    margin-left: .33rem;
+    padding-top: .2rem;
+}
+
+.item .name {
+    font-size: .28rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.item .place {
+    font-size: .24rem;
+    color: #000;
+    font-weight: normal;
+}
+
+.item .time {
+    font-size: .24rem;
+    color: #000;
+    font-weight: normal;
+}
+
+.item .go img {
+    width: .23rem;
+    height: .35rem;
+    float: left;
+
+    margin-top: .68rem;
+}
+
+.index {
+    width: .28rem;
+    height: 7.35rem;
+    font-size: .16rem;
+    color: #007aff;
+    position: fixed;
+    top: 3.33rem;
+    right: 0;
+}
+
+.index li {
+    width: .3rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+}
+
+.table-bar {
+    width: 100%;
+    height: .99rem;
+    background: #f9f9f9;
+    border-top: #b2b2b2 1px solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-bar li {
+    width: .88rem;
+    height: .99rem;
+    color: #a0a0a0;
+}
+.table-bar .icon{
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: 24px;
+    font-family: iconfont;
+}
+.table-bar .text{
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size: 12px;
+}
